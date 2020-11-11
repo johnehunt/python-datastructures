@@ -20,4 +20,4 @@ class Queue:
         self.data = []
 
     def __str__(self):
-        return 'Queue' + self.data
+        return 'Queue' + str(self.data)

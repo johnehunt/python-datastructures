@@ -9,6 +9,8 @@ stack.push("first")
 stack.push("second")
 stack.push("third")
 
+print(stack)
+
 print('stack.peek():', stack.peek())
 
 item = stack.pop()

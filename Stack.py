@@ -21,3 +21,6 @@ class Stack:
 
     def clear(self):
         self.contents = []
+
+    def __str__(self):
+        return 'Stack' + str(self.contents)
