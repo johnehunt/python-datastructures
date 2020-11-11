@@ -3,13 +3,13 @@
 from Stack import Stack
 
 stack = Stack()
-print(stack.is_empty())
+print('stack.is_empty():', stack.is_empty())
 
 stack.push("first")
 stack.push("second")
 stack.push("third")
 
-print(stack.peek())
+print('stack.peek():', stack.peek())
 
 item = stack.pop()
 print('1st popped item', item)
