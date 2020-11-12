@@ -1,6 +1,6 @@
 # Example program using a stack
 
-from Stack import Stack
+from stack import Stack
 
 stack = Stack()
 print('stack.is_empty():', stack.is_empty())
