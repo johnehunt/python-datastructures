@@ -1,4 +1,4 @@
-class Queue:
+class BasicQueue:
     """ Queue ADT
     A queue is an ordered collection of items where
     the addition of new items happens at one end,

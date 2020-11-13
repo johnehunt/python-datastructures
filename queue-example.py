@@ -1,6 +1,6 @@
-from queue import Queue
+from queue import BasicQueue
 
-queue = Queue()
+queue = BasicQueue()
 
 print('queue.is_empty():', queue.is_empty())
 
