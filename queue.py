@@ -30,3 +30,6 @@ class Queue:
 
     def __str__(self):
         return 'Queue' + str(self.data)
+
+    def __len__(self):
+        return self.size()

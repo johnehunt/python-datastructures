@@ -101,3 +101,7 @@ class LinkedList:
                 end_of_data = True
         result = result + ']'
         return result
+
+    # Support the length protocol
+    def __len__(self):
+        return self.size()

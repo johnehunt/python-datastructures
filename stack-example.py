@@ -10,6 +10,7 @@ stack.push("second")
 stack.push("third")
 
 print(stack)
+print(len(stack))
 
 print('stack.peek():', stack.peek())
 
@@ -22,3 +23,4 @@ print('2nd popped item', item)
 item = stack.pop()
 print('3rd popped item', item)
 
+print(len(stack))

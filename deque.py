@@ -33,3 +33,6 @@ class Deque:
 
     def __str__(self):
         return 'Deque' + str(self.data)
+
+    def __len__(self):
+        return self.size()

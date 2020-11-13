@@ -31,3 +31,6 @@ class Stack:
 
     def __str__(self):
         return 'Stack' + str(self.contents)
+
+    def __len__(self):
+        return self.size()

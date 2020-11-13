@@ -71,6 +71,9 @@ class OrderedLinkedList:
         result = result + ']'
         return result
 
+    def __len__(self):
+        return self.size()
+
     # Differences relative to an unordered linked list - and no insert
 
     def add(self, item):
