@@ -8,6 +8,9 @@ queue.enqueue("First")
 queue.enqueue("Second")
 queue.enqueue("Third")
 print(queue)
+for item in queue:
+    print(item)
+print()
 
 print('queue.size():', queue.size())
 

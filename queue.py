@@ -31,5 +31,12 @@ class BasicQueue:
     def __str__(self):
         return 'Queue' + str(self.data)
 
+    # Implement the length protocol
     def __len__(self):
         return self.size()
+
+    # Implement the iterable protocol
+    def __iter__(self):
+        temp = self.data.copy()
+        temp.reverse()
+        return iter(temp)
