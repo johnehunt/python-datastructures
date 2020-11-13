@@ -22,7 +22,7 @@ class Deque:
     def remove_front(self):
         return self.data.pop()
 
-    def remove_rear(self):
+    def remove_back(self):
         return self.data.pop(0)
 
     def size(self):
@@ -34,5 +34,12 @@ class Deque:
     def __str__(self):
         return 'Deque' + str(self.data)
 
+    # Implement the length protocol
     def __len__(self):
         return self.size()
+
+    # Implement the iterable protocol
+    def __iter__(self):
+        temp = self.data.copy()
+        temp.reverse()
+        return iter(temp)
