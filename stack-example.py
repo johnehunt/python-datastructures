@@ -11,6 +11,9 @@ stack.push("third")
 
 print(stack)
 print(len(stack))
+for item in stack:
+    print(item, end='')
+print()
 
 print('stack.peek():', stack.peek())
 
