@@ -1,4 +1,4 @@
-from ordered_linked_list import OrderedLinkedList
+from abstractdatatypes.ordered_linked_list import OrderedLinkedList
 
 oll = OrderedLinkedList()
 

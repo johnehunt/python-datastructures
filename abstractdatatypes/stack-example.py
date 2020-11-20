@@ -1,6 +1,6 @@
 # Example program using a stack
 
-from stack import Stack
+from abstractdatatypes.stack import Stack
 
 stack = Stack()
 print('stack.is_empty():', stack.is_empty())

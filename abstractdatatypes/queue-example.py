@@ -1,4 +1,4 @@
-from queue import BasicQueue
+from abstractdatatypes.queue import BasicQueue
 
 queue = BasicQueue()
 

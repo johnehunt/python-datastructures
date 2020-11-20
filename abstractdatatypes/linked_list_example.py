@@ -1,5 +1,5 @@
-from linked_list import Node
-from linked_list import LinkedList
+from abstractdatatypes.linked_list import Node
+from abstractdatatypes.linked_list import LinkedList
 
 n1 = Node('First')
 print(n1)

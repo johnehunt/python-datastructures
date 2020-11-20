@@ -104,12 +104,12 @@ class OrderedLinkedList:
         found = False
         stop = False
         while current is not None and not found and not stop:
-            if current.getData() == item:
+            if current.get_data() == item:
                 found = True
             else:
-                if current.getData() > item:
+                if current.get_data() > item:
                     stop = True
                 else:
-                    current = current.getNext()
+                    current = current.get_next()
 
         return found

@@ -1,4 +1,4 @@
-from deque import Deque
+from abstractdatatypes.deque import Deque
 
 d = Deque()
 print(d.is_empty())
