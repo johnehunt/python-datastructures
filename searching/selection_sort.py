@@ -6,9 +6,9 @@
 # Each subsequent pass places the next value in the correct
 # location until all values are correctly placed
 
-print('-' * 36)
+print('-' * 40)
 print('Example of the Selection Sort Algorithm')
-print('-' * 36)
+print('-' * 40)
 
 
 def selection_sort(data_list):
