@@ -8,6 +8,11 @@
 # list must be sorted. A bubble sort can be modified to stop early
 # if it finds that the list has become sorted.
 
+print('-' * 50)
+print('Example of the "short Cut" Bubble Sort Algorithm')
+print('-' * 50)
+
+
 def short_cut_bubble_sort(data_list):
 	pass_number = 0
 	for i in range(len(data_list) - 1, 0, -1):
