@@ -4,6 +4,11 @@
 # largest value in its proper place. In essence, each item
 # “bubbles” up to the location where it belongs.
 
+print('-' * 36)
+print('Example of the Bubble Sort Algorithm')
+print('-' * 36)
+
+
 def bubble_sort(data_list):
 	pass_number = 0
 	for i in range(len(data_list) - 1, 0, -1):
