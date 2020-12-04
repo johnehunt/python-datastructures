@@ -1,3 +1,4 @@
+# Part 3: Selection Sort
 # The selection sort improves on the bubble sort by
 # making only one exchange for every pass through the list.
 # In order to do this, a selection sort looks for the
